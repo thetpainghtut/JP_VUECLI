@@ -2,7 +2,7 @@
   <div>
     <h1>{{title}}</h1>
     <p>{{msg}}</p>
-    <button @click="goBack()">Go Back</button>
+    <button @click="goBack()" class="btn btn-warning">Go Back</button>
     <p>This is testing for child components.</p>
   </div>
 </template>
