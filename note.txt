@@ -31,3 +31,22 @@
 
 => Using API
   - npm install axios
+
+=> Using Vuex (manage state / single source of truth)
+  - npm install vuex --save
+  - store.js (export)
+  - main.js (import / use)
+
+  - state  == data
+  - actions == methods
+  - getters == computed
+  - mutations (trace actions)
+
+  - call action from any component (this.$store.dispatch(''))
+  - call state from any component (this.$store.state.--)
+
+=> homework
+  - create route shopping cart page
+  - views / ShoppingCart.vue (show table + / - / remove)
+
+
